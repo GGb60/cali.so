@@ -1,10 +1,10 @@
 export const seo = {
-  title: 'Cali Castle | 开发者、设计师、细节控、创始人',
+  title: '段枫 | 剪辑师、摄影师、无限进步',
   description:
-    '我叫 Cali，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    '我是段枫,是一个B站知识区8.5W粉UP主,主要做一些网站搭建,免费AI工具分享的视频,如果有商务合作可以+V:LAOGOU717',
   url: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://cali.so'
+      ? 'https://www.laogou717.com'
       : 'http://localhost:3000'
   ),
 } as const

@@ -82,14 +82,14 @@ export function Newsletter({ subCount }: { subCount?: string }) {
         <span className="ml-2">动态更新</span>
       </h2>
       <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
-        <span>喜欢我的内容的话不妨订阅支持一下 🫶</span>
+        <span>喜欢我的内容的话不妨订阅支持一下 😌</span>
         <br />
         {subCount && (
           <span>
             加入其他 <span className="font-medium">{subCount}</span> 位订阅者，
           </span>
         )}
-        <span>每月一封，随时可以取消订阅。</span>
+        <span>每月数封，随时可以取消订阅。</span>
       </p>
       <AnimatePresence mode="wait">
         {!isSubscribed ? (
@@ -101,7 +101,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
           >
             <input
               type="email"
-              placeholder="你的邮箱"
+              placeholder="输入你的邮箱"
               aria-label="电子邮箱"
               required
               className="min-w-0 flex-auto appearance-none rounded-lg border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] placeholder:text-zinc-400 focus:border-lime-500 focus:outline-none focus:ring-4 focus:ring-lime-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-lime-400/50 dark:focus:ring-lime-400/5 sm:text-sm"
@@ -122,7 +122,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
             animate={{ opacity: 1, y: 0 }}
             exit="initial"
           >
-            请查收订阅确认邮件 🥳
+            请查收订阅确认邮件 🎉
           </motion.p>
         )}
       </AnimatePresence>
