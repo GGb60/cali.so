@@ -82,8 +82,8 @@ export function Headline() {
         <Balancer>
           我是 段枫，
           <PeekabooLink href="https://www.laogou717.com">早期博客</PeekabooLink>
-          是这个，目前是个嚣张的无业游民，对外说好听的就是<b>全职UP主</b>。
-          那说难听点就是没找到合适的工作，一边做视频一边投简历。短期计划是把之前<b>“挖的坑”</b>填上就算成功。
+          是这个，目前是个无业游民，对外说好听的就是<b>全职UP主</b>。
+          说难听点就是没找到工作，现在一边躺平一边投简历。短期计划是把之前<b>“挖的坑”</b>填上就算成功。
         </Balancer>
       </motion.p>
       <motion.div
